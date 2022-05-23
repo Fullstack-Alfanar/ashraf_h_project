@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(120deg,#65e5f6,#cb8af0);
+    color: beige;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+
+h2,form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#divs{
+    border-style: solid;
+    width:500px;
+    border-width:3px;
+    border-color: #2b1a35;
+    border-radius: 10px;
+}
+
+h2{
+   color: #271631;
+    position: relative;
+    animation-name: todo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+
+  button{
+      border-radius: 30%;
+      margin-left: 5px;
+      background-color:initial;
+      color: crimson;
+  }
+  p{
+      margin-left: 10px;
+  }
+  input{
+      margin-left: 10px;
+  }
+  #remove_btn{
+      background-color: darkslateblue;
+  }
+
+  p {
+    color: red;
+    position: relative;
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes changecolor {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+  }
