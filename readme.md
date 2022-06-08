@@ -18,7 +18,7 @@ JAVASCRIPT files:Contains all the functions that check authentication and other 
 
 ---
 ### Installation
-1. Copy the https repository: **team work-4 project**
+1. Copy the https repository: **ashraf_h_projict**
 2. open visual studio **terminal**
 3. write Git Clone and paste the **URL**
 4. type a command **code .**
