@@ -2,6 +2,7 @@ let arr = [];
 
 let bton = document.getElementById("btn");
 let inp = document.getElementById("inp");
+let date = document.getElementById("date");
 let lis = document.getElementById("list");
 
 
@@ -15,6 +16,7 @@ bton.addEventListener("click", function () {
         //////////////creat the pargraph 
         var par = document.createElement("p");
         par.classList.add("par_style");
+        par.innerText = date.value;
         par.innerText = inp.value;
         lis.appendChild(par);
        
